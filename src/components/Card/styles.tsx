@@ -5,26 +5,25 @@ import { Black, Blue, Purple, Shadow, White } from "../../styles/palette";
 const borderRadius = "4px";
 
 export const StyledContainer = styled.div`
+  background: ${White.regular};
+  border-radius: ${borderRadius};
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  background: ${White.regular};
-  border-radius: ${borderRadius};
-  box-sizing: border-box;
   -webkit-box-shadow: 0px 0px 5px 0px ${Shadow.light};
   -moz-box-shadow: 0px 0px 5px 0px ${Shadow.light};
   box-shadow: 0px 0px 5px 0px ${Shadow.light};
 `;
 
 export const StyledCardPhotoContainer = styled.div`
-  display: flex;
-  justify-content: center;
   align-items: center;
-
   background-color: ${Blue.light};
   border-radius: ${borderRadius} ${borderRadius} 0 0;
+  display: flex;
   height: 110px;
+  justify-content: center;
 `;
 
 export const StyledCardBody = styled.div`
@@ -74,11 +73,11 @@ export const StyledCardFooter = styled.div`
 `;
 
 export const StyledCharacteristic = styled.div`
-  flex: 1;
-  text-align: center;
-  position: relative;
   background: ${Purple.regular};
+  flex: 1;
   padding: 12px 8px;
+  position: relative;
+  text-align: center;
 
   &:first-child {
     border-radius: 0 0 0 ${borderRadius};

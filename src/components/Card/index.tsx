@@ -31,16 +31,16 @@ const Card: React.FC<CardProps> = ({ pokemon, ...props }) => {
 
       <StyledCardBody>
         <StyledFormIds>
-          Forms ids: {pokemon.forms.map((form) => `#${form.id}`)}
+          Forms ids: {pokemon.forms.map((form) => `#${form.id} `)}
         </StyledFormIds>
         <StyledName>{pokemon.name}</StyledName>
-      </StyledCardBody>
 
-      <StyledAbilities>
-        {pokemon.abilities.map((ability, index) => (
-          <StyledAbility key={index}>{ability.name}</StyledAbility>
-        ))}
-      </StyledAbilities>
+        <StyledAbilities>
+          {pokemon.abilities.map((ability, index) => (
+            <StyledAbility key={index}>{ability.name}</StyledAbility>
+          ))}
+        </StyledAbilities>
+      </StyledCardBody>
 
       <StyledCardFooter>
         <StyledCharacteristic>
