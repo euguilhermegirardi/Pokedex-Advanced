@@ -35,7 +35,7 @@ export interface FetchPokemonsSuccessAction
   payload: { pokemons: NonNullable<HomeModuleState["pokemons"]> };
 }
 
-export function FetchPokemonsSuccess(
+export function fetchPokemonsSuccess(
   pokemons: FetchPokemonsSuccessAction["payload"]["pokemons"]
 ): FetchPokemonsSuccessAction {
   return {
