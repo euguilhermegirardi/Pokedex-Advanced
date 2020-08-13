@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-import { Blue, White } from "../../styles/palette";
+import { Purple, White } from "../../styles/palette";
 
 export const StyledContainer = styled.div`
-  background: ${Blue.dark};
+  background: ${Purple.regular};
   color: ${White.regular};
   font-size: 30px;
   font-weight: bold;
