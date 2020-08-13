@@ -1,5 +1,4 @@
 # Pokedex
-[![Netlify Status](https://api.netlify.com/api/v1/badges/04ee8bf5-c9f5-42b6-9d28-6e6d28bd3bca/deploy-status)](https://app.netlify.com/sites/pokedex-typescript/deploys)
 
 This is the **Pokedex**, a project that I could learn TypeScript in a proffesional way.
 
