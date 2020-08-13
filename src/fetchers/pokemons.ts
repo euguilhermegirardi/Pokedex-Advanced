@@ -20,6 +20,8 @@ export const getPokemonsData = async (pokemons: Pokemon[]) => {
       };
     })
   );
+
+  return pokemonsWithData;
 };
 
 export const fetchUrls = (array: string[]) => {
